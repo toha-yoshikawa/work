@@ -19,11 +19,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-//        cell1.text = '太鼓'
-//cell2.text = 'バチ'
-//cell3 = 'タンバリン'
-  //      cell4 = 'チャリンコ'
-        //text1.text = "チャリンコ"
+        let userDefaults = UserDefaults.standard
+        
+        text1.text = "カゴ"
     }
 
     override func didReceiveMemoryWarning() {
